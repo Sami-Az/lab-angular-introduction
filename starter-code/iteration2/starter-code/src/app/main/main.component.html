@@ -1,0 +1,12 @@
+<p>
+  Articles works!
+</p>
+
+
+<ul>
+  <li *ngFor="let oneArticle of articles">
+     <h2> {{oneArticle.title}} </h2>
+     <img src="{{oneArticle.image}}"> 
+     <p> {{oneArticle.description}}</p>
+  </li>
+</ul>
